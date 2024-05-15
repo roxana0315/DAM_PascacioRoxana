@@ -89,6 +89,18 @@
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#2373B3"
+        android:text="¿Por qué medio se enteró de la convocatoria?"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroupCarrera"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="@+id/radioGroupCarrera"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupCarrera" />
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="149dp"
@@ -166,6 +178,84 @@
             android:layout_height="wrap_content"
             android:text="@string/radioButton_Sistemas" />
 
+        <RadioButton
+            android:id="@+id/radioButtonAmbiental"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_Ambiental" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMecanica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_Mecanica" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAdministracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_Administracion" />
     </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/CheckboxRadio"
+        android:layout_width="71dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Checkbox_radio"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <CheckBox
+        android:id="@+id/CheckboxInternet"
+        android:layout_width="80dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Checkbox_Internet"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/CheckboxRadio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/CheckboxRadio"
+        app:layout_constraintTop_toBottomOf="@+id/CheckboxRadio" />
+
+    <CheckBox
+        android:id="@+id/CheckboxAmigo"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Checkbox_Amigo"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/CheckboxInternet"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/CheckboxInternet"
+        app:layout_constraintTop_toBottomOf="@+id/CheckboxInternet" />
+
+    <CheckBox
+        android:id="@+id/CheckboxPublicidad"
+        android:layout_width="93dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Checkbox_Publicidad"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/CheckboxAmigo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/CheckboxAmigo"
+        app:layout_constraintTop_toBottomOf="@+id/CheckboxAmigo" />
+
+    <Button
+        android:id="@+id/button_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#2373B3"
+        android:backgroundTint="#2373B3"
+        android:text="@string/button_enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CheckboxPublicidad" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

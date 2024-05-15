@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DAM_AnibalMuñoz</string>
+    <string name="radiobutton_Sistemas">ingenieria de sistemas</string>
+    <string name="radioButton_Sistemas">Ingenieria de Sistemas</string>
+    <string name="radioButton_Ambiental">Ingenieria Ambiental</string>
+    <string name="radioButton_Mecanica">Ingenieria Mecanica</string>
+    <string name="radioButton_Administracion">Administracion</string>
+    <string name="Checkbox_radio">Radio</string>
+    <string name="Checkbox_Internet">Internet</string>
+    <string name="Checkbox_Amigo">Amigo</string>
+    <string name="Checkbox_Publicidad">Publicidad</string>
+    <string name="button_enviar">Enviar</string>
+</resources>
